@@ -22,6 +22,7 @@ for i in name:
         if i == j:
             name=name.replace(i,"")
             p_name=p_name.replace(i,"")
+            name , p_name = name.replace(" ","") ,p_name.replace(" ","")
             #print(f"Name: {name} Partner's name{p_name}")
 
 total=name+p_name
